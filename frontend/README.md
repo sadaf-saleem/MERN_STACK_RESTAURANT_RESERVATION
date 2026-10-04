@@ -1,16 +1,82 @@
-# React + Vite
+# Restaurant Reservation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for managing restaurant reservations with a user-friendly interface and backend API integration.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Frontend**
 
-## React Compiler
+* React.js
+* Vite
+* React Router
+* Axios
+* React Icons
+* React Hot Toast
+* React Scroll
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Backend**
 
-## Expanding the ESLint configuration
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* Validator
+* CORS
+* dotenv
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Restaurant reservation functionality
+* User-friendly interface
+* Frontend and backend integration
+* MongoDB database connectivity
+* REST API integration
+* Form validation
+* Toast notifications
+
+## Project Type
+
+Full Stack Web Application (MERN Stack)
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sadaf-saleem/MERN_STACK_RESTAURANT_RESERVATION.git
+cd MERN_STACK_RESTAURANT_RESERVATION
+```
+
+### 2. Install frontend dependencies
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Install backend dependencies
+
+Open another terminal:
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### 4. Environment Variables
+
+Create a `.env` file in the backend directory and add the required environment variables according to the backend configuration.
+
+## Tools
+
+* Git & GitHub
+* VS Code
+* REST APIs
+
+## Author
+
+**Sadaf Saleem**
+
+[GitHub Profile](https://github.com/sadaf-saleem)
